@@ -11,7 +11,7 @@ you can save the plant you just identified and
 always come back to the info you need!
 
 ## What can I do with this?
-You can .. 
+You can...
 * identify plants 
   * more specifically: succulents, flowers, algae, moss, ferns
 * get information on that plant
@@ -19,10 +19,12 @@ You can ..
 * recall information of said saved plants
 
 ## How do I use it?
-* [How to identify plants](###identifying-plants)
-* [How to save plants](###saving-plants)
+* [How to identify plants](#identifying-plants)
+* [How to save plants](#saving-plants)
+* [How to access the info](#how-to-access-the-info)
 ### Identifying plants
 ### Saving plants
+### How to access the info
 ## Documentation of this app
 ### Design
 ### Planning of project
