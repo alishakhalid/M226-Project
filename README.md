@@ -1,4 +1,4 @@
-# plant_app.plant_classes.Plant app
+# My plant app
 ## Jump back and forth! 
 
 * [What is this?](#what-is-this)
