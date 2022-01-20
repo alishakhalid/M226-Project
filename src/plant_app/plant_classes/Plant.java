@@ -1,3 +1,7 @@
+package plant_app.plant_classes;
+
+import plant_app.Info;
+
 public class Plant {
 
     private boolean isPotted;
@@ -54,5 +58,13 @@ public class Plant {
 
     public void setHasLeaves(boolean hasLeaves) {
         this.hasLeaves = hasLeaves;
+    }
+
+    public Info getInfo() {
+        return info;
+    }
+
+    public void setInfo(Info info) {
+        this.info = info;
     }
 }

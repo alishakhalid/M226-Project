@@ -1,3 +1,7 @@
+package plant_app.plant_classes;
+
+import plant_app.Info;
+
 public class Flower extends Plant {
     int numberOfPetals;
 
