@@ -28,6 +28,6 @@ You can...
 ## Documentation of this app
 ### Design
 ### Planning of project
-#### ERD
+#### ERD  
 [Here you can find the ERD.](https://blerineberisha.github.io/M226-erd/)
 ### Test cases
