@@ -1,6 +1,6 @@
-package plant.app.project;
+package plant.app;
 
-public class Algae extends Plant implements Identifiable{
+public class Algae extends Plant implements Identifiable {
     private boolean isToxic;
 
     public Algae(String color, int length, boolean hasFruit, boolean hasLeaves, Info info, boolean isToxic) {

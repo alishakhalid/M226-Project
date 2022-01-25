@@ -1,4 +1,4 @@
-package plant.app.project;
+package plant.app;
 
 import javafx.application.Application;
 import javafx.stage.Stage;

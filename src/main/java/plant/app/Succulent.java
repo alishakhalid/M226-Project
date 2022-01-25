@@ -1,4 +1,4 @@
-package plant.app.project;
+package plant.app;
 
 public class Succulent extends Plant implements Identifiable {
     private boolean hasSpikes;

@@ -1,4 +1,4 @@
-package plant.app.project;
+package plant.app;
 
 public class Plant implements Identifiable{
     private String color;

@@ -1,6 +1,6 @@
-package plant.app.project;
+package plant.app;
 
-public class Flower extends Plant implements Identifiable{
+public class Flower extends Plant implements Identifiable {
     int numberOfPetals;
     public Flower(String color, int length, boolean hasFruit, boolean hasLeaves, Info info, int numberOfPetals) {
         super(color, length, hasFruit, hasLeaves, info);

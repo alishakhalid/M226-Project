@@ -1,4 +1,5 @@
-package plant.app.project;
+package plant.app;
+
 
 public interface Identifiable {
     public Plant identifyPlant(Plant p);
