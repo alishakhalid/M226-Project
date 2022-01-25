@@ -10,6 +10,6 @@ module plant.app.project {
             requires org.kordamp.bootstrapfx.core;
             requires eu.hansolo.tilesfx;
     
-    opens plant.app.project to javafx.fxml;
-    exports plant.app.project;
+    opens plant.app to javafx.fxml;
+    exports plant.app;
 }
