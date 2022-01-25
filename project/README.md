@@ -28,4 +28,8 @@ You can...
 ## Documentation of this app
 ### Design
 ### Planning of project
+#### Diagrams
+* [Link to initial class diagram](https://github.com/blerineberisha/M226-Project/blob/main/src/files/ERD.svg)
+* [Link to detailed class diagram at the end of project]()
+* [Link to sequence diagram]()
 ### Test cases
