@@ -29,5 +29,5 @@ You can...
 ### Design
 ### Planning of project
 #### ERD  
-[Here you can find the ERD.](https://blerineberisha.github.io/M226-erd/)
+[Here you can find the ERD.](https://blerineberisha.github.io/m226b-erd/)
 ### Test cases
