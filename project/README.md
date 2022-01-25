@@ -1,13 +1,12 @@
-# My plant app
+# Plant app
 ## Jump back and forth! 
-
 * [What is this?](#what-is-this)
 * [What can I do with this?](#what-can-i-do-with-this)
 * [How do I use it?](#how-do-i-use-it)
 * [Documentation](#documentation-of-this-app)
 ## What is this?
 With this program, you can identify what kind of
-plant you own, how often it needs to be watered, and 
+plant you own, how often it needs to be watered and 
 you can save the plant you just identified and
 always come back to the info you need!
 
@@ -24,16 +23,13 @@ You can...
 * [How to save plants](#saving-plants)
 * [How to access the info](#how-to-access-the-info)
 ### Identifying plants
-
 ### Saving plants
-
 ### How to access the info
-
-
 ## Documentation of this app
-
 ### Design
-
 ### Planning of project
-
+#### Diagrams
+* [Link to initial class diagram](https://github.com/blerineberisha/M226-Project/blob/main/src/files/ERD.svg)
+* [Link to detailed class diagram at the end of project]()
+* [Link to sequence diagram]()
 ### Test cases
