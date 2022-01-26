@@ -23,6 +23,11 @@ public class Design {
         return event;
     }
 
+    /**
+     *
+     * @param stage
+     * @throws FileNotFoundException
+     */
     public void loadStart(Stage stage) throws FileNotFoundException {
         try {
             URL imageLocation = getClass().getResource("/images/bg.jpeg");
