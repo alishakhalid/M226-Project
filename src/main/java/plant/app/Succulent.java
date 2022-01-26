@@ -1,16 +1,11 @@
 package plant.app;
 
-public class Succulent extends Plant implements Identifiable {
+public class Succulent extends Plant {
     private boolean hasSpikes;
 
     public Succulent(String color, int length, boolean hasFruit, boolean hasLeaves, Info info, boolean hasSpikes) {
         super(color, length, hasFruit, hasLeaves, info);
         this.hasSpikes = hasSpikes;
-    }
-
-    @Override
-    public Plant identifyPlant(Plant p) {
-        return p;
     }
 
     public boolean isHasSpikes() {

@@ -1,6 +1,6 @@
 package plant.app;
 
-public class Plant implements Identifiable{
+public class Plant {
     private String color;
     private int length;
     private boolean hasFruit;
@@ -15,10 +15,6 @@ public class Plant implements Identifiable{
         this.info = info;
     }
 
-    @Override
-    public Plant identifyPlant(Plant p) {
-        return p;
-    }
 
     public String getColor() {
         return color;
