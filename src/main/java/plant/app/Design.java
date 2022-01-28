@@ -35,7 +35,7 @@ public class Design {
      */
     public void loadBackground(Stage stage) throws FileNotFoundException {
         try {
-            URL imageLocation = getClass().getResource("/images/bg.jpeg");
+            URL imageLocation = getClass().getResource("/bg.jpeg");
             Image image = new Image(String.valueOf(imageLocation));
             ImageView imageView = new ImageView(image);
             imageView.setFitHeight(700);

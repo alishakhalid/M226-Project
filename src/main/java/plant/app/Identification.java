@@ -1,16 +1,26 @@
 package plant.app;
 
-import java.lang.reflect.Array;
-import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
  * This is the class containing all methods to identify plants in this app. This is strictly logic and contains
- * no JavaFX elements.
+ * no JavaFX elements/methods.
  */
 public class Identification {
-    public Plant getType(Plant p) {
-        return p;
+    public Object getType() {
+        if (isMushroom()) {
+            return getMushroom();
+        } else if (isFlower()) {
+            return getFlower();
+        } else if (isAlgae()) {
+            return getAlgae();
+        } else if (isSucculent()) {
+            return getSucculent();
+        } else if (isCactus()) {
+            return getCactus();
+        } else {
+            return null;
+        }
     }
 
     /**
@@ -20,7 +30,7 @@ public class Identification {
      * (*biologically, mushrooms are not plants, but for my explanation's sake, I will refer to mushroom's
      * super-class as plants rather than fungi)
      */
-    public static boolean wearsHat() {
+    public static boolean isMushroom() {
         boolean wearsHat;
         System.out.println("Does the plant look like it's wearing a hat?");
         Scanner input = new Scanner(System.in);
