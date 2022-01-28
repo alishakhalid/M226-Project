@@ -21,5 +21,7 @@
 - [ ] Is another structure smarter? 
 - [x] Read from one file
 - [ ] Read from all files
+- [ ] Use JSON?
 #### write to files
-- [ ] 
+- [ ] Write to a file
+- [ ] Do I use JSON? 
