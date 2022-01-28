@@ -5,9 +5,8 @@ package plant.app;
  */
 public class Flower extends Plant {
     int numberOfPetals;
-
-    public Flower(String color, int length, boolean hasFruit, boolean hasLeaves, boolean hasFlower, int numberOfPetals) {
-        super(color, length, hasFruit, hasLeaves, hasFlower);
+    public Flower(String color, int length, boolean hasFruit, boolean hasLeaves, boolean hasBlossom, int numberOfPetals) {
+        super(color, length, hasFruit, hasLeaves, hasBlossom);
         this.numberOfPetals = numberOfPetals;
     }
 

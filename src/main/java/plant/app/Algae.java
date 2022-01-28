@@ -2,12 +2,10 @@ package plant.app;
 
 public class Algae extends Plant {
     private boolean isToxic;
-    private boolean looksLikeGrass;
 
-    public Algae(String color, int length, boolean hasFruit, boolean hasLeaves, boolean hasFlower, boolean isToxic, boolean looksLikeGrass) {
-        super(color, length, hasFruit, hasLeaves, hasFlower);
+    public Algae(String color, int length, boolean hasFruit, boolean hasLeaves, boolean hasBlossom, boolean isToxic) {
+        super(color, length, hasFruit, hasLeaves, hasBlossom);
         this.isToxic = isToxic;
-        this.looksLikeGrass = looksLikeGrass;
     }
 
     public boolean isToxic() {
@@ -18,11 +16,4 @@ public class Algae extends Plant {
         isToxic = toxic;
     }
 
-    public boolean isLooksLikeGrass() {
-        return looksLikeGrass;
-    }
-
-    public void setLooksLikeGrass(boolean looksLikeGrass) {
-        this.looksLikeGrass = looksLikeGrass;
-    }
 }

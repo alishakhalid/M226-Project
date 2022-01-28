@@ -33,7 +33,7 @@ public class Design {
      * @throws FileNotFoundException an exception that is caught for when the background image
      *                               is not found.
      */
-    public void loadStart(Stage stage) throws FileNotFoundException {
+    public void loadBackground(Stage stage) throws FileNotFoundException {
         try {
             URL imageLocation = getClass().getResource("/images/bg.jpeg");
             Image image = new Image(String.valueOf(imageLocation));
@@ -43,12 +43,6 @@ public class Design {
             imageView.setOpacity(0.5);
             StackPane layout = new StackPane();
             layout.getChildren().add(imageView);
-            Button identify = new Button();
-            identify.setText("Identify a plant");
-            identify.setLayoutY(350);
-            identify.setLayoutX(350);
-            identify.setOnAction(identify(identify));
-            layout.getChildren().add(identify);
             Scene scene = new Scene(layout, 700, 700);
             stage.setTitle("My plant app");
             stage.setScene(scene);

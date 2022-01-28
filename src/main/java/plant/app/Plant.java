@@ -5,24 +5,24 @@ public class Plant {
     private int length;
     private boolean hasFruit;
     private boolean hasLeaves;
-    private boolean hasFlower;
+    private boolean hasBlossom;
     private Info info;
 
-    public Plant(String color, int length, boolean hasFruit, boolean hasLeaves, boolean hasFlower, Info info) {
+    public Plant(String color, int length, boolean hasFruit, boolean hasLeaves, boolean hasBlossom, Info info) {
         this.color = color;
         this.length = length;
         this.hasFruit = hasFruit;
         this.hasLeaves = hasLeaves;
-        this.hasFlower = hasFlower;
+        this.hasBlossom = hasBlossom;
         this.info = info;
     }
 
-    public Plant(String color, int length, boolean hasFruit, boolean hasLeaves, boolean hasFlower) {
+    public Plant(String color, int length, boolean hasFruit, boolean hasLeaves, boolean hasBlossom) {
         this.color = color;
         this.length = length;
         this.hasFruit = hasFruit;
         this.hasLeaves = hasLeaves;
-        this.hasFlower = hasFlower;
+        this.hasBlossom = hasBlossom;
     }
 
     public String getColor() {
@@ -57,12 +57,12 @@ public class Plant {
         this.hasLeaves = hasLeaves;
     }
 
-    public boolean isHasFlower() {
-        return hasFlower;
+    public boolean isHasBlossom() {
+        return hasBlossom;
     }
 
-    public void setHasFlower(boolean hasFlower) {
-        this.hasFlower = hasFlower;
+    public void setHasBlossom(boolean hasFlower) {
+        this.hasBlossom = hasFlower;
     }
 
     public Info getInfo() {

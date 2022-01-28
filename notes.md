@@ -7,10 +7,12 @@
   * [Read from files](#read-from-files)
   * [Write to files](#write-to-files)
 ### Identification
-- [ ] Use if?
-- [ ] Use switch case?
+- [x] Use if !!   
+-[ ] ~~Use switch case?~~
 ### Classes
 - [ ] Are all attributes necessary?
+- [ ] Have all attributes been set correctly?
+- [ ] Have all attributes been named correctly?
 - [ ] Are all attributes in the right place? 
 - [ ] Do I have enough classes?
 ### JavaFX
