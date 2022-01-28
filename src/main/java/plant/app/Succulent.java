@@ -3,8 +3,8 @@ package plant.app;
 public class Succulent extends Plant {
     private boolean hasSpikes;
 
-    public Succulent(String color, int length, boolean hasFruit, boolean hasLeaves, Info info, boolean hasSpikes) {
-        super(color, length, hasFruit, hasLeaves, info);
+    public Succulent(String color, int length, boolean hasFruit, boolean hasLeaves, boolean hasFlower, boolean hasSpikes) {
+        super(color, length, hasFruit, hasLeaves, hasFlower);
         this.hasSpikes = hasSpikes;
     }
 
